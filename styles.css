@@ -1,0 +1,29 @@
+.highlighted {
+    color: rgb(22, 168, 187);
+    font-weight: bold;
+}
+.underlined {
+    font-style: italic;
+    text-decoration: underline;
+}
+.holder {
+    display: flex;
+    width: 400px;
+    height: 150px;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(57, 182, 145);
+    display: inline-block;
+}
+.flex-container {
+    display: flex;
+    background-color: dodgerblue;
+}
+.flex-container > div {
+    background-color: #c58181;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
